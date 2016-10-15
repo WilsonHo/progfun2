@@ -1,0 +1,13 @@
+.git
+calculator/target/*
+calculator/project/target/*
+calculator/project/project/*
+calculator/.idea/*
+quickcheck/target/*
+quickcheck/project/target/*
+quickcheck/project/project/*
+quickcheck/.idea/*
+streams/target/*
+streams/project/target/*
+streams/project/project/*
+streams/.idea/*
