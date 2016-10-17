@@ -1,17 +1,17 @@
 [0m[[0minfo[0m] [0mFast optimizing /home/baohg/IntelijProjects/Coursera/progfun2/calculator/web-ui/target/scala-2.11/webui-fastopt.js[0m
-[0m[[0mdebug[0m] [0mLinker: Read info: 401000 us[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 321843 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 2902023 us[0m
-[0m[[0mdebug[0m] [0mLinker: cache stats: reused: 0 -- invalidated: 3475 -- trees read: 501[0m
-[0m[[0mdebug[0m] [0mLinker: 3648609 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 540734 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 3641 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 1787493 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 2367161 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 99089 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 20374 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 121943 us[0m
-[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 368[0m
-[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 1867[0m
-[0m[[0mdebug[0m] [0mEmitter (write output): 1606281 us[0m
+[0m[[0mdebug[0m] [0mLinker: Read info: 11431 us[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 85138 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 380902 us[0m
+[0m[[0mdebug[0m] [0mLinker: cache stats: reused: 3461 -- invalidated: 15 -- trees read: 9[0m
+[0m[[0mdebug[0m] [0mLinker: 481681 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 62503 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 2 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 6826 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 75819 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 71707 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 7220 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 79461 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 375 -- invalidated: 9[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 2055 -- invalidated: 2[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 134654 us[0m

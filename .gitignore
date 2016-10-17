@@ -11,3 +11,4 @@ streams/target/*
 streams/project/target/*
 streams/project/project/*
 streams/.idea/*
+calculator/web-ui/target/*

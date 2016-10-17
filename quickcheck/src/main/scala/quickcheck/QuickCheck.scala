@@ -80,16 +80,15 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
     findMin(meld(h1, h2)) == Math.min(findMin(h1), findMin(h2))
   }
 
-  //////////////////////////////////////
-  property("Check find a minimum of the melding") = forAll { (h1: H) =>
-    findMin(meld(h1, empty)) == findMin(h1)
+  property("Check find a minimum of the melding with empty head") = forAll { (h: H) =>
+    findMin(meld(h, empty)) == findMin(h)
   }
 
-  property("Check insert a element into an empty heap and delete the minimum") =
+  property("Check insert a element into an heap and delete the minimum") =
     forAll { (a: Int, h: H) =>
       val h1 = insert(a, h)
       val h2 = deleteMin(h1)
-      val minnn = if (findMin(h) < a) findMin(deleteMin(h)) else findMin(h)
-      findMin(h2) == minnn
+      val min = if (findMin(h) < a) findMin(deleteMin(h)) else findMin(h)
+      findMin(h2) == min
     }
 }
